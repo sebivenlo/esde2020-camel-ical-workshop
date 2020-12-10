@@ -26,7 +26,7 @@ After running the application you can go to [http://localhost:8080/calendar](htt
 You can view the code of this route in `src/main/java/nl/fontys/esde/Routes.java`. Here you can see how the routes are defined.
 
 ### Assignment 1
-In this assignment we want are going to try and expose a much nicer json representation of our calendar and events.
+In this assignment we are going to try and expose a much nicer (json) representation of our calendar and events.
 So in this assignment we are going to implement a processor that will transform our ical objects into nice POJO's that we then can encode nicely in any format we want.
 
 For this and other assignments we already provided a new simple calendar and event class to use.
