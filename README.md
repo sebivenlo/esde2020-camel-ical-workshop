@@ -26,10 +26,24 @@ After running the application you can go to [http://localhost:8080/calendar](htt
 You can view the code of this route in `src/main/java/nl/fontys/esde/Routes.java`. Here you can see how the routes are defined.
 
 ### Assignment 1
+In this assignment we want are going to try and expose a much nicer json representation of our calendar and events.
+So in this assignment we are going to implement a processor that will transform our ical objects into nice POJO's that we then can encode nicely in any format we want.
+
+For this and other assignments we already provided a new simple calendar and event class to use.
+
+In this assignment you will need to edit the route in `src/main/java/nl/fontys/esde/Routes.java` and complete it. You can use the `Ical2Obj` class to implement a processor.
+
+See also TODO item 1 inside your IDE.
 
 ### Assignment 2
+Now that we have a nice representation of a calendar. It might be nice to filter out all events that already happened.
+
+See TODO item 2 and the `EventFilter` class
 
 ### Assignment 3
+In this assignment we are going to create an event that can be shared with other (for example through email)
+
+See TODO item 3 inside your IDE.
 
 
 # Resources
