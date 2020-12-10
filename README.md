@@ -24,3 +24,17 @@ Before we get into actually programming this ourselves, lets look at a demo of h
 After running the application you can go to [http://localhost:8080/calendar](http://localhost:8080/calendar) to get a json representation of a fully filled calendar parsed by the Camel iCAL extension. Here you can also see the internal structure and the properties that we later are going to need in the assignments.
 
 You can view the code of this route in `src/main/java/nl/fontys/esde/Routes.java`. Here you can see how the routes are defined.
+
+### Assignment 1
+
+### Assignment 2
+
+### Assignment 3
+
+
+# Resources
+[Apache Camel](https://camel.apache.org/)  
+[Camel-iCAL extension](https://camel.apache.org/camel-quarkus/latest/reference/extensions/ical.html)  
+[iCalendar](https://icalendar.org/)  
+[ical4j](https://ical4j.github.io/ical4j-user-guide/) (the system that camel-ical uses to work with the iCalendar standard)  
+[ical4j Examples](https://ical4j.github.io/ical4j-user-guide/) (Very useful link with examples of how to work with calendar objects)
