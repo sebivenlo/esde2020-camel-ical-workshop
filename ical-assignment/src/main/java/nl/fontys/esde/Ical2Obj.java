@@ -12,7 +12,7 @@ public class Ical2Obj implements Processor {
         // create our own calendar object
         nl.fontys.esde.Calendar cal = new nl.fontys.esde.Calendar();
 
-        // TODO transform the ical object into our nice calendar and event structure
+        // TODO 1. transform the ical object into our nice calendar and event structure
 
 
         // return our transformed objects

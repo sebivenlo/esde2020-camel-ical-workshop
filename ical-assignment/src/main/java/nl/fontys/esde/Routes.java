@@ -30,14 +30,14 @@ public class Routes extends RouteBuilder {
         // You should use the Ical2Obj processor class for this
         // TODO 2. Add another processor to filter out events that are already done
         // You may use the EventFilter processor class for this
-        from("platform-http:/niceCalendar?httpMethodRestrict=GET");
+//        from("platform-http:/niceCalendar?httpMethodRestrict=GET");
 
 
         from("platform-http:/event")
                 .process(new Processor() {
                     @Override
                     public void process(Exchange exchange) throws Exception {
-                        // TODO create a base calendar and an event to publish
+                        // TODO 3. create a base calendar and an event to publish
 
                     }
                 })
